@@ -1,6 +1,7 @@
 #!/usr/bin/ruby -w
 
-require File.join(File.dirname(__FILE__), 'spotted_dog')
+require File.join(File.dirname(__FILE__), 'models/spotted_dog')
+require File.join(File.dirname(__FILE__), 'models/item')
 
 puts "OMGHAI!"
 items = [
